@@ -30,12 +30,10 @@ Follow these simple steps to create your image prediction model:
 
 #### Step 1: Import necessary libraries and set the execution path
 
-```python
 from imageai.Classification import ImageClassification
 import os
 
 execution_path = os.getcwd()
-python'''
 
 #### Step 2: Choose your desired algorithm and load the model
 
