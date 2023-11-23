@@ -13,6 +13,7 @@ Have you ever wondered how computers can "see" and identify objects in images? T
 Before you begin, make sure you have the following:
 
 - **Python**: Basic knowledge of Python programming.
+- **ImageAI Dependencies**: Install dependedencies from requirments.txt and requirements_gpu.txt docs.
 - **ImageAI Library**: Install it using `pip install imageai`.
 - **Images**: Gather the images you want to perform predictions on.
 
