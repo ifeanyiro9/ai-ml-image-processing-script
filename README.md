@@ -35,8 +35,9 @@ from imageai.Classification import ImageClassification
 import os
 
 execution_path = os.getcwd()
+```python
 
-### Step 2: Choose your desired algorithm and load the model
+#### Step 2: Choose your desired algorithm and load the model
 
 Choose one of the available algorithms and load the corresponding model:
 
@@ -50,8 +51,9 @@ prediction = ImageClassification()
 prediction.setModelTypeAsDenseNet121()  # Choose your algorithm here
 prediction.setModelPath(os.path.join(execution_path, "model_file.pth"))  # Path to the model file
 prediction.loadModel()
+```python
 
-### Step 3: Perform image prediction
+#### Step 3: Perform image prediction
 
 Replace "house.jpg" with the path to the image you want to predict, and run the prediction code:
 
@@ -70,3 +72,5 @@ predictions, probabilities = prediction.classifyImage(os.path.join(execution_pat
 
 for eachPrediction, eachProbability in zip(predictions, probabilities):
     print(eachPrediction, " : ", eachProbability)
+```python
+
