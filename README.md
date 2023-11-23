@@ -30,41 +30,10 @@ Follow these simple steps to create your image prediction model:
 
 #### Step 1: Import necessary libraries and set the execution path
 
-from imageai.Classification import ImageClassification
-import os
-
-execution_path = os.getcwd()
-
 #### Step 2: Choose your desired algorithm and load the model
 
 Choose one of the available algorithms and load the corresponding model:
 
-from imageai.Classification import ImageClassification
-import os
-
-execution_path = os.getcwd()
-
-prediction = ImageClassification()
-prediction.setModelTypeAsDenseNet121()  # Choose your algorithm here
-prediction.setModelPath(os.path.join(execution_path, "model_file.pth"))  # Path to the model file
-prediction.loadModel()
-
 #### Step 3: Perform image prediction
 
 Replace "house.jpg" with the path to the image you want to predict, and run the prediction code:
-
-from imageai.Classification import ImageClassification
-import os
-
-execution_path = os.getcwd()
-
-prediction = ImageClassification()
-prediction.setModelTypeAsDenseNet121()  # Choose your algorithm here
-prediction.setModelPath(os.path.join(execution_path, "model_file.pth"))  # Path to the model file
-prediction.loadModel()
-
-predictions, probabilities = prediction.classifyImage(os.path.join(execution_path, "house.jpg"), result_count=5)
-
-for eachPrediction, eachProbability in zip(predictions, probabilities):
-    print(eachPrediction, " : ", eachProbability)
-
