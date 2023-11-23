@@ -32,8 +32,8 @@ Follow these simple steps to create your image prediction model:
 
 #### Step 2: Choose your desired algorithm and load the model
 
-Choose one of the available algorithms and load the corresponding model:
+Choose one of the available algorithms and load the corresponding model
 
 #### Step 3: Perform image prediction
 
-Replace "house.jpg" with the path to the image you want to predict, and run the prediction code:
+Replace "house.jpg" with the path to the image you want to predict, and run the prediction code
