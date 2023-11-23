@@ -38,3 +38,5 @@ Choose one of the available algorithms and load the corresponding model
 #### Step 3: Perform image prediction
 
 Replace "house.jpg" with the path to the image you want to predict, and run the prediction code
+
+Read more about ImageAI here - https://github.com/OlafenwaMoses/ImageAI
