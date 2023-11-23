@@ -35,7 +35,7 @@ from imageai.Classification import ImageClassification
 import os
 
 execution_path = os.getcwd()
-```python
+python'''
 
 #### Step 2: Choose your desired algorithm and load the model
 
